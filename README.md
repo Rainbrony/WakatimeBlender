@@ -1,3 +1,15 @@
+### This is a fork of https://github.com/allista/WakatimeBlender , all credits go to @allista
+
+I'm a newbie in coding. so please go easy on my bad codes XD.
+
+Blender 3.1 updated its Python core, some incompatibility occured. 
+I did a temporal change so that it can work in 3.1, it's not pretty but it works.
+
+After following the original install steps you need to replace the `package` folder in `C:\Users\%username%\.wakatime\wakatime-runtime\legacy-python-cli-master\wakatime\` with the package.7z file in the release. 
+Then try not to reinstall the wakatime core in blender.
+
+### Origin Readme below
+
 **WakatimeBlender** is a simple plugin for the [Blender](https://www.blender.org/) 3D graphics software that sends time-tracking statistics to the [Wakatime](https://wakatime.com) online service using official wakatime client.
 
 ### Installation
